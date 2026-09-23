@@ -27,8 +27,7 @@ public class LoginActivity extends AppCompatActivity {
             String user = etUser.getText().toString().trim();
             String password = etPassword.getText().toString().trim();
 
-            if (user.equals(getString(R.string.admin_user))
-                    && password.equals(getString(R.string.admin_password))) {
+           if (!user.isEmpty() && !password.isEmpty()) {
 
                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                 intent.putExtra("username", user);
