@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Ma Webcam en direct</h2>
+<video id="video" width="640" height="480" autoplay></video>
+
+<script>
+    const video = document.getElementById('video');
+
+    // Demande l'autorisation d'utiliser la webcam
+    navigator.mediaDevices.getUserMedia({ video: true })
+        .then((stream) => {
+            video.srcObject = stream;
+        })
+        .catch((err) => {
+            console.error("Erreur : " + err);
+        });
+</script>
+</body>
+</html>
