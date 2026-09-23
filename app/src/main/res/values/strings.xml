@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">SecuRobot</string>
+    <string name="utilisateur">Utilisateur</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="connexion">Connexion</string>
+    <string name="login_error">Utilisateur ou mot de passe incorrect</string>
+
+    <string name="status_disconnected">Statut : Déconnecté</string>
+    <string name="status_active">Statut : Application active</string>
+    <string name="status_pause">Statut : Pause</string>
+    <string name="status_telemetry_received">Statut : Télémétrie reçue</string>
+    <string name="status_simulation">Statut : Mode simulation</string>
+    <string name="status_robot_stopped">Statut : Robot arrêté</string>
+    <string name="status_robot_enabled">Statut : Robot activé</string>
+    <string name="status_robot_disabled">Statut : Robot désactivé</string>
+
+    <string name="user_default">Utilisateur : -</string>
+    <string name="movement_stop">Déplacement : STOP</string>
+    <string name="movement_forward">Déplacement : AVANCER</string>
+    <string name="movement_backward">Déplacement : RECULER</string>
+    <string name="movement_left">Déplacement : GAUCHE</string>
+    <string name="movement_right">Déplacement : DROITE</string>
+
+    <string name="btn_forward">FORWARD</string>
+    <string name="btn_backward">BACKWARD</string>
+    <string name="btn_left">LEFT</string>
+    <string name="btn_right">RIGHT</string>
+    <string name="btn_stop">STOP</string>
+
+
+    <string name="speed_default">60%</string>
+    <string name="power_off">Power OFF</string>
+    <string name="power_on">Power ON</string>
+    <string name="btn_photo">PHOTO</string>
+
+    <string name="camera_control">Contrôle caméra</string>
+
+    <string name="temperature_default">Température : — °C</string>
+    <string name="co2_default">CO2 : — ppm</string>
+    <string name="distance_default">Distance : — cm</string>
+    <string name="inclinaison_default">Inclinaison : — °</string>
+
+    <string name="_60">60%</string>
+    <item name="etPassword" type="id" />
+    <item name="etUser" type="id" />
+</resources>
