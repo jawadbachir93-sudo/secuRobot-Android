@@ -3,7 +3,7 @@
     <string name="utilisateur">Utilisateur</string>
     <string name="mot_de_passe">Mot de passe</string>
     <string name="connexion">Connexion</string>
-    <string name="login_error">Utilisateur ou mot de passe incorrect</string>
+    <string name="login_error">Saisissez un utilisateur et un mot de passe</string>
 
     <string name="status_disconnected">Statut : Déconnecté</string>
     <string name="status_active">Statut : Application active</string>
